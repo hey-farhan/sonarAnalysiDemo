@@ -17,6 +17,14 @@ standardTheme.addEventListener('click', () => changeTheme('standard'));
 lightTheme.addEventListener('click', () => changeTheme('light'));
 darkerTheme.addEventListener('click', () => changeTheme('darker'));
 
+//toDoBtn.addEventListener('click', addToDo);
+//toDoList.addEventListener('click', deletecheck);
+//document.addEventListener("DOMContentLoaded", getTodos);
+//standardTheme.addEventListener('click', () => changeTheme('standard'));
+lightTheme.addEventListener('click', () => changeTheme('light'));
+darkerTheme.addEventListener('click', () => changeTheme('darker'));
+
+
 // Check if one theme has been set previously and apply it (or std theme if not found):
 let savedTheme = localStorage.getItem('savedTheme');
 savedTheme === null ?
